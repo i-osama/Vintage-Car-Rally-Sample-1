@@ -12,6 +12,7 @@ This website is a sample for the Vintage car rally company
   <br><br><br>
    <b># Q&A page</b><br>
   <img src="https://user-images.githubusercontent.com/117646017/201628296-65a45165-2cfa-4219-ad5e-bc0b75d0edb4.png" width="800" height="350"/>
+  <img src="https://user-images.githubusercontent.com/117646017/201629103-c077b744-4a6c-49b4-9e59-96e8f9717f4a.png" width="800" height="350"/>
 </p>
 
 

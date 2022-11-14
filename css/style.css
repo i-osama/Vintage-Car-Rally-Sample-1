@@ -1,0 +1,531 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* GLOBAL ELEMENTS */
+.divider_horizontal {
+    width: 100%;
+    padding: 1%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: transparent transparent rgba(173, 172, 172, 0.6);
+}
+.h3{
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1% 0%;
+}
+.p_ts{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    padding: 1% 0%;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    /* position: sticky; */
+    top: 0%;
+}
+header div ul{
+ display: flex;
+}
+header div ul li{
+    list-style: none;
+    padding: 12px 5px;
+    margin: 12px 7px;
+    font-size: 1.2rem;
+}
+.nav_ali {
+    text-decoration: none;
+    color: white;
+    padding: 8px 6px;
+}
+.logo_head {
+    padding: 3px 6px;
+    margin: 1px 5px;
+    height: 6%;
+    width: 8%;
+    margin-left: 43%;
+}
+.logo_head img {
+    padding: 0px 4px;
+    margin: -30px 5px;
+    width: 94%;
+}
+.log_txt {
+    font-size: 1.04rem;
+    padding-left: 14%;
+    font-family: 'Brush Script MT', cursive;
+}
+.log_txt a{
+    text-decoration: none;
+    color: white;
+}
+/* Hover */
+header div ul li:hover{
+    color: rgb(238, 238, 238);
+    background-color: gray;
+    border-radius: 8%;
+}
+/* Slider */
+.slider{
+    /* padding-top: 22%;
+    margin-top: 3%; */
+    height: 30%;
+    background-color: gray;
+    overflow: hidden;
+}
+.all_slides{
+    display: flex;
+    position: relative;
+    width: 194%;
+    animation: slide 15s infinite;
+}
+.slide_img{
+    height: 402px;
+    width: 50%;
+}
+@keyframes slide{
+    25%{
+        left: 0%;
+    }
+    50%{
+        left: -50%;
+    }
+    75%{
+        left: -80%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+/* SECTION 1 */
+#mySection_1{
+    /* margin: 0% 8%; */
+    padding: 5% 8%;
+    background-color: #26292b;
+    color: #e5e1d9;
+}
+#mySection_1 h2{
+    padding: 2% 0%;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+}
+#mySection_1 h2 span {
+    padding: 0% 1%;
+    margin: 0% 1%;
+    border-left-width: 2px;
+    border-left-style: solid;
+    color: rgb(83, 82, 82);
+    font-weight: 90;
+}
+/* Sub-section 1 */
+#sub_sec1{
+    display: flex;
+    margin: 1% 0%;
+}
+#sub_sec1 h3{
+    margin: 2% 0%;
+    font-size: 1.4rem;
+}
+.padd_class{
+    padding: 0.5% 0%;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+/* Home lower images */
+#home_low_img{
+    display: flex;
+    margin: 0% 4%;
+}
+#home_low_img img{
+    width: 30%;
+    padding: 2%;
+    border-radius: 10%;
+    box-shadow: 1px 2px 12px grey;
+    margin: 3% 0%;
+}
+footer {
+    padding-left: 43%;
+    background-color: #26292b;
+}
+.social_media_icon {
+    width: 4%;
+    padding: 2% 1%;
+    padding-top: 1%;
+}
+
+/* DRIVER */
+#driver_sec1{
+    margin: 1% 3%;
+}
+#driver_body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #474444;
+    color: white;
+    height: 100%;
+}
+.driver_images{
+    display: flex;
+    margin: 1% 2%;
+    margin-left: 12%;
+}
+.driver_images div{
+    width: 28%;
+   padding: 1% 0%;
+}
+.dri_img_all{
+    width: 79%;
+    height: 269px;
+    padding: 1% 3%;
+    border-radius: 6%;
+}
+.driver_name{
+    position: relative;
+    margin-top: -14%;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #3b565c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 12%;
+}
+.h2{
+    padding: 2% 0%;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+#dri_bd_mid_img{
+    display: flex;
+    margin: 0% 2%;
+}
+#dri_bd_mid_img img{
+    width: 30%;
+    margin: 1%;
+    border-radius: 10%;
+}
+video {
+    width: 70%;
+    height: auto;
+    padding-top: 2%;
+    padding-left: 16%;
+    padding-bottom: 2%;
+}
+#sound {
+    margin: 2% 0%;
+    margin-left: 46%;
+    width: 8%;
+    margin-right: 46%;
+}
+
+/* QUESTION AND ANSWER PAGE */
+#qna_body{
+    background: url('../img/bg.jpg');
+    width: 100%;
+    color: #d6d6d6;
+}
+#qna_search_bar {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    padding-left: 19%;
+}
+#qna_search_bar input[type="text"] {
+    border: none;
+    padding: 1.5% 2%;
+    width: 34%;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+#qna_search_bar div a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+#btn_animation {
+    border-radius: 13px;
+    border: 2px solid gray;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1% 1%;
+    width: 13%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+}
+#qna_search_box {
+    padding: 3% 5%;
+    color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#btn_animation a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+#btn_animation a::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+#btn_animation:hover a{
+    padding-right: 12%;
+}
+#btn_animation:hover a:after{
+        opacity: 1;
+        right: 0;
+}
+#qna_1 {
+    padding-left: 30%;
+}
+#qna_1 textarea {
+    width: 58%;
+    height: 148px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1%;
+    font-size: 1.2rem;
+}
+.btn_qna {
+    border-radius: 4px;
+    background-color: #6647477a;
+    border: 2px solid white;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1% 0.5%;
+    padding: 0.5% 2%;
+}
+.btn_qna:hover{
+    background-color: #2e2e2e;
+    box-shadow: 1px 2px 14px rgb(58, 36, 36);
+ }
+ #qna_1 div{
+    padding: 2% 0%;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #qna_sec{
+    margin: 1% 3%;
+ }
+ .contant {
+    color: white;
+    border: 2px solid white;
+    padding: 1% 2%;
+    margin: 2% 1%;
+}
+
+/* REGISTRATION */
+#register_sec{
+    background-color: #d6d6d6;
+    padding: 0% 3%;
+}
+#country_fup{
+    background-color: #413c2d;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 2%;
+}
+#countryFl_register{
+    display: flex;
+    width: 74%;
+    /* margin: 2% 4%; */
+    margin: 2% 15%;
+    height: 165px;
+}
+.count_flag_sub{
+    margin: 0% -2%;
+}
+.count_flag_sub img{
+    width: 80%;
+}
+.count_flag_sub div{
+    text-align: center;
+}
+.radius_img{
+    /* width: 88%; */
+    width: 38%;
+    height: 300px;
+    padding: 1% 3%;
+    border-radius: 14%;
+}
+.rally_stages{
+    display: flex;
+    padding: 3% 1%;
+}
+.rally_stages div{
+    padding: 4% 1%;
+    width: 50%;
+}
+/* ----Registration Form ---  */
+.frm_mdt{
+    color: red;
+}
+.frm_lvl{
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 3%; */
+}
+.form-contact{
+    padding: 1% 0%;
+}
+#contact-box input,#contact-box textarea{
+    color: #090909;
+    width: 100%;
+    padding: 1% 0%;
+    font-size: 1.0rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent transparent rgb(4 4 4);
+    background-color: transparent;
+    padding-top: 1%;
+}
+#contact-box form{
+    width: 40%;
+    margin: 2% 0%;
+}
+.form-button{
+    padding-left: 43%;
+    padding-top: 3%;
+}
+.btn {
+    color: #211010;
+    border: 1px solid #2e2d2d;
+    background-color: #d2abab00;
+    font-size: 1.1rem;
+    padding: 2% 3%;
+    margin: 1%;
+    cursor: pointer;
+}
+.btn:active {
+    color: black;
+    background-color:rgb(133, 130, 130);
+}
+
+/* CONTACT PAGE */
+#contact_sec{
+    margin: 1% 3%;
+}
+#contact_imgh{
+    border-radius: 2px 86px;
+    height: auto;
+    width: auto;
+    padding: 0% 2%;
+    margin-left: 2%;
+    /* box-shadow: 1px 2px 12px grey;; */
+}
+#contact-box textarea{
+    border-color: #663b3b6b #0000008c rgb(4 4 4);
+}
+/* ABOUT US PAGE */
+#about_hd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 4%;
+    background-color: #d6d6d6;
+}
+#about_hd img{
+    padding: 1% 2%;
+    width: 70%;
+}
+.p_medium{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#about_sub_sec1{
+    padding: 0% 3%;
+}
+
+.who_wer {
+    margin: 2%;
+    /* background-color: #d6d6d6; */
+    display: flex;
+    padding-bottom: 1%;
+    /* color: white; */
+}
+.who_sub {
+    padding: 0% 2%;
+}
+.aboutus_img {
+    width: 60%;
+    padding: 2% 0%;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1310px){
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    header div ul li{
+        padding: 0% 4%;
+    }
+    .logo_head{
+        padding: 2% 0%;
+    }
+    .who_wer{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutus_img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .driver_images{
+        flex-direction: column;
+    }
+    .driver_images div{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .dri_img_all{
+        width: 120%;
+        height: 70%;
+    }
+    #dri_bd_mid_img{
+        flex-direction: column;
+    }
+    #dri_bd_mid_img img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 65%;
+        padding: 0% 4%;
+    } 
+    .rally_stages{
+        flex-direction: column;
+        align-items: center;
+    }
+    .count_flag_sub{
+        padding: 3% 0%;
+    }
+    #countryFl_register{
+        flex-direction: column;
+        height: 55%;
+        width: 28%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
